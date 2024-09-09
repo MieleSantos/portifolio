@@ -1,91 +1,92 @@
   /* Seu CSS fornecido */
   body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(45deg, #0b021f, #731743);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    color: white;
-}
+      font-family: Arial, sans-serif;
+      background: linear-gradient(45deg, #0b021f, #731743);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      color: white;
+  }
 
-.card {
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
-    padding: 20px;
-    width: 400px;
-    text-align: center;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-}
+  .card {
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 10px;
+      padding: 20px;
+      width: 400px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
 
-.profile-pic {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin-bottom: 15px;
-}
+  .profile-pic {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      margin-bottom: 15px;
+  }
 
-h1 {
-    font-size: 1.5em;
-    margin: 10px 0;
-}
-
-.info {
-    font-size: 0.9em;
-    margin-bottom: 20px;
-}
+  h1 {
+      font-size: 1.5em;
+      margin: 10px 0;
+  }
 
 
-.info p::before{
-    content: "";
-    display: inline-block;
-    width: 1rem;
-    height: 1rem;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-right: .5rem;
-}
-.info .job::before{
-    background-image: url("/assests/images/icons/job.svg");
-}
-.info .email::before{
-    background-image: url("/assests/images/icons/email.svg");
-}
-.info .phone::before{
-    background-image: url("/assests/images/icons/phone.svg");
-}
-.info .local::before{
-    background-image: url("/assests/images/icons/local.svg");
-}
+
+  .info p::before {
+      content: "";
+      display: inline-block;
+      width: 1rem;
+      height: 1rem;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-right: .5rem;
+  }
+
+  .info .job::before {
+      background-image: url("/assests/images/icons/job.svg");
+  }
+
+  .info .email::before {
+      background-image: url("/assests/images/icons/email.svg");
+  }
+
+  .info .phone::before {
+      background-image: url("/assests/images/icons/phone.svg");
+  }
+
+  .info .local::before {
+      background-image: url("/assests/images/icons/local.svg");
+  }
 
 
-.accordion {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: background-color 0.2s ease;
-    margin-bottom: 10px;
-    border-radius: 10px;
-}
+  .accordion {
+      background-color: rgba(255, 255, 255, 0.1);
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      width: 100%;
+      text-align: left;
+      border: none;
+      outline: none;
+      transition: background-color 0.2s ease;
+      margin-bottom: 10px;
+      border-radius: 10px;
+  }
 
-.accordion:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-}
+  .accordion:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+  }
 
-.panel {
-    padding: 0 15px;
-    display: none;
-    background-color: rgba(255, 255, 255, 0.05);
-    overflow: hidden;
-    border-radius: 10px;
-}
+  .panel {
+      padding: 0 15px;
+      display: none;
+      background-color: rgba(255, 255, 255, 0.05);
+      overflow: hidden;
+      border-radius: 10px;
+  }
 
-.panel p {
-    margin: 10px 0;
-}
+  .panel p {
+      margin: 10px 0;
+  }
+
