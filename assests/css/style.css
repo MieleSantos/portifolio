@@ -31,6 +31,9 @@
       margin: 10px 0;
   }
 
+  .info{
+    text-align: justify;
+  }
 
 
   .info p::before {
@@ -58,7 +61,9 @@
   .info .local::before {
       background-image: url("/assests/images/icons/local.svg");
   }
-
+  .info .ld::before {
+    background-image: url("/assests/images/icons/inl.svg");
+}
 
   .accordion {
       background-color: rgba(255, 255, 255, 0.1);
@@ -90,3 +95,8 @@
       margin: 10px 0;
   }
 
+ a {
+      margin: 10px 0;
+      color: white;
+      text-decoration: none;
+}
